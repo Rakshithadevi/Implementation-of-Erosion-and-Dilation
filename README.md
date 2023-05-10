@@ -33,9 +33,9 @@ from google.colab.patches import cv2_imshow
 import numpy as np
 
 # Create the Text using cv2.putText
-img1 = np.zeros((100,270), dtype = 'uint8')
+img1 = np.zeros((100,600), dtype = 'uint8')
 font = cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(img1,'RAKSHI',(5,70), font, 2,(255),5,cv2.LINE_AA)
+cv2.putText(img1,'RAKSHITHA DEVI J',(5,70), font, 2,(255),5,cv2.LINE_AA)
 plt.imshow(img1,'gray')
 
 # Create the structuring element
@@ -58,11 +58,11 @@ plt.imshow(image_dilate1, 'gray')
 ## Output:
 
 ### Display the input Image
-![image](https://github.com/Rakshithadevi/Implementation-of-Erosion-and-Dilation/assets/94165326/39b86a3b-2116-4097-8207-7a64001618bd)
+![image](https://github.com/Rakshithadevi/Implementation-of-Erosion-and-Dilation/assets/94165326/ad0277d9-9243-4c1f-8a55-1265797f37df)
 ### Display the Eroded Image
-![image](https://github.com/Rakshithadevi/Implementation-of-Erosion-and-Dilation/assets/94165326/d19242e0-793b-48e5-9d01-2763b9c5becd)
+![image](https://github.com/Rakshithadevi/Implementation-of-Erosion-and-Dilation/assets/94165326/dcfb200f-32be-4035-9d8b-4db6f8bc5a1b)
 ### Display the Dilated Image
-![image](https://github.com/Rakshithadevi/Implementation-of-Erosion-and-Dilation/assets/94165326/3c8f42db-1e7c-4d4e-9271-b74bea4ef9f8)
+![image](https://github.com/Rakshithadevi/Implementation-of-Erosion-and-Dilation/assets/94165326/9391ca11-a6d3-4922-a64f-a0739fdd0c2c)
 
 ## Result
 Thus the generated text image is eroded and dilated using python and OpenCV.
